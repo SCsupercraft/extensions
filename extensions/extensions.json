@@ -1,5 +1,6 @@
 [
   // This file supports comments
+  "SCsupercraft/Debugging",
   "lab/text",
   "stretch",
   "gamepad",
@@ -96,6 +97,5 @@
   "itchio",
   "gamejolt",
   "obviousAlexC/newgroundsIO",
-  "SCsupercraft/Debugging",
   "Lily/McUtils" // McUtils should always be the last item.
 ]

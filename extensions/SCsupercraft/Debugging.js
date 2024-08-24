@@ -1,7 +1,7 @@
 // Name: Debugger
 // ID: debugging
 // Description: Log information and run commands. Good for debugging packaged projects or just easily changing things.
-// By: SCsupercraft
+// By: SCsupercraft <https://github.com/SCsupercraft>
 // License: MIT
 
 /*
