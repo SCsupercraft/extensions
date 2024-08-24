@@ -94,7 +94,7 @@
       return {
         id: "localstorage",
         name: Scratch.translate("Local Storage"),
-        docsURI: "https://extensions.turbowarp.org/local-storage",
+        docsURI: "https://scsupercraft.github.io/extensions/local-storage",
         blocks: [
           {
             opcode: "setProjectId",

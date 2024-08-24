@@ -21,9 +21,9 @@
 7.1. [Augmented Reality extension](#ar-integration)
 
 ## What is this <a name="description"></a>
-**Simple 3D** is an extension by [Vadik1](https://scratch.mit.edu/users/Vadik1) meant to enable creation of GPU accelerated 3D projects. It is not designed for making graphically complex 3D projects (for that, see [Pen+ v7](https://github.com/TurboWarp/extensions/pull/1377) and [WebGL2](https://github.com/TurboWarp/extensions/discussions/378) extensions, both with programmable shaders) and instead it's main focus is allowing people to create 3D projects easily and quickly. Nevertheless, despite lack of programmable shaders, it is still quite powerful. It covers the wide range of usages from something as high level as making an [AR project in less than 20 blocks](#ar-example) with models loaded from OBJ files, to something more low level like doing all the calculations on CPU and streaming transformed polygons every frame (like [Pen+](https://extensions.turbowarp.org/obviousAlexC/penPlus.js)). And of course everything in-between.
+**Simple 3D** is an extension by [Vadik1](https://scratch.mit.edu/users/Vadik1) meant to enable creation of GPU accelerated 3D projects. It is not designed for making graphically complex 3D projects (for that, see [Pen+ v7](https://github.com/TurboWarp/extensions/pull/1377) and [WebGL2](https://github.com/TurboWarp/extensions/discussions/378) extensions, both with programmable shaders) and instead it's main focus is allowing people to create 3D projects easily and quickly. Nevertheless, despite lack of programmable shaders, it is still quite powerful. It covers the wide range of usages from something as high level as making an [AR project in less than 20 blocks](#ar-example) with models loaded from OBJ files, to something more low level like doing all the calculations on CPU and streaming transformed polygons every frame (like [Pen+](https://scsupercraft.github.io/extensions/obviousAlexC/penPlus.js)). And of course everything in-between.
 
-It could also be useful for making certain kinds of 2D projects, thanks to it's ability to render large quantities of similar objects with instancing (e.g. particles), construct 2D meshes out of triangles, rendering into textures allowing multi-pass rendering and more advanced clipping than [Clipping &amp; Blending](https://extensions.turbowarp.org/Xeltalliv/clippingblending.js) extension. It can be used for 2D image processing that can for example later be used as costumes using [Skins](https://extensions.turbowarp.org/Lily/Skins.js) extension. It's support of vertex weights and indices can be used for skeletal animation of 2D characters with deforming body parts rather than using rigid images, or even for smoothly extending UI elements.
+It could also be useful for making certain kinds of 2D projects, thanks to it's ability to render large quantities of similar objects with instancing (e.g. particles), construct 2D meshes out of triangles, rendering into textures allowing multi-pass rendering and more advanced clipping than [Clipping &amp; Blending](https://scsupercraft.github.io/extensions/Xeltalliv/clippingblending.js) extension. It can be used for 2D image processing that can for example later be used as costumes using [Skins](https://scsupercraft.github.io/extensions/Lily/Skins.js) extension. It's support of vertex weights and indices can be used for skeletal animation of 2D characters with deforming body parts rather than using rigid images, or even for smoothly extending UI elements.
 
 ## How it works <a name="main-concepts"></a>
 Scratch has a background layer, a video layer, a pen layer and a sprite layer. This extension adds another layer - simple3D between video and pen layers. **High quality pen mode also affects it.**
@@ -576,7 +576,7 @@ Used for setting how mesh will be blender with what is already drawn.
 
 If your mesh is fully opaque, use "overwrite color (fastest for opaque)". If your mesh is transpartent instead, you can use it to draw transparent holes in an already opaque image.
 Use invisible for drawing to the depth buffer.
-Everything else is self-explanatory and the same as in [Clipping &amp; Blending](https://extensions.turbowarp.org/Xeltalliv/clippingblending.js) extension.
+Everything else is self-explanatory and the same as in [Clipping &amp; Blending](https://scsupercraft.github.io/extensions/Xeltalliv/clippingblending.js) extension.
 
 Default for mesh is "default".
 
@@ -694,7 +694,7 @@ This block may cause stutter when drawing something for the first time, as it wi
 
 ### Textures <a name="blocks-textures"></a>
 ```scratch
-(texture from URL [https://extensions.turbowarp.org/dango.png] :: sensing)
+(texture from URL [https://scsupercraft.github.io/extensions/dango.png] :: sensing)
 ```
 Creates texture from image at specified URL.
 Will show a prompt if URL is not approved.

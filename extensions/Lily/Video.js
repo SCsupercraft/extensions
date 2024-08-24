@@ -143,7 +143,7 @@
             arguments: {
               URL: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/dango.mp4",
+                defaultValue: "https://scsupercraft.github.io/extensions/dango.mp4",
               },
               NAME: {
                 type: Scratch.ArgumentType.STRING,

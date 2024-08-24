@@ -36,7 +36,7 @@
       return {
         id: "dninwakelock",
         name: Scratch.translate("Wake Lock"),
-        docsURI: "https://extensions.turbowarp.org/DNin/wake-lock",
+        docsURI: "https://scsupercraft.github.io/extensions/DNin/wake-lock",
         blocks: [
           {
             opcode: "setWakeLock",

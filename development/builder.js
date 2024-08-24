@@ -313,7 +313,7 @@ class HomepageFile extends BuildFile {
     this.host =
       mode === "development"
         ? "http://localhost:8000/"
-        : "https://extensions.turbowarp.org/";
+        : "https://scsupercraft.github.io/extensions/";
   }
 
   getType() {
@@ -580,7 +580,7 @@ class SampleFile extends BuildFile {
 
     for (const url of urls) {
       if (
-        !url.startsWith("https://extensions.turbowarp.org/") ||
+        !url.startsWith("https://scsupercraft.github.io/extensions/") ||
         !url.endsWith(".js")
       ) {
         throw new Error(`Invalid extension URL for sample: ${url}`);

@@ -38,7 +38,7 @@
             arguments: {
               URL: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/meow.mp3",
+                defaultValue: "https://scsupercraft.github.io/extensions/meow.mp3",
               },
             },
           },

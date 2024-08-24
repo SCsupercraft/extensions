@@ -104,7 +104,7 @@
       return {
         id: "gsaWebsocket",
         name: "WebSocket",
-        docsURI: "https://extensions.turbowarp.org/godslayerakp/ws",
+        docsURI: "https://scsupercraft.github.io/extensions/godslayerakp/ws",
         color1: "#307eff",
         color2: "#2c5eb0",
         blocks: [

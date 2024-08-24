@@ -218,7 +218,7 @@
             arguments: {
               URL: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/hello.txt",
+                defaultValue: "https://scsupercraft.github.io/extensions/hello.txt",
               },
             },
           },

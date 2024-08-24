@@ -378,7 +378,7 @@
             arguments: {
               URL: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/dango.png",
+                defaultValue: "https://scsupercraft.github.io/extensions/dango.png",
               },
             },
           },
@@ -392,7 +392,7 @@
             arguments: {
               URL: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/dango.png",
+                defaultValue: "https://scsupercraft.github.io/extensions/dango.png",
               },
             },
           },

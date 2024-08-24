@@ -43,7 +43,7 @@
             arguments: {
               IMAGEURL: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/robot.png",
+                defaultValue: "https://scsupercraft.github.io/extensions/robot.png",
               },
             },
             disableMonitor: true,

@@ -54,7 +54,7 @@
         color2: "#298ec2",
         color3: "#2081b3",
         menuIconURI: icon,
-        docsURI: "https://extensions.turbowarp.org/CubesterYT/WindowControls",
+        docsURI: "https://scsupercraft.github.io/extensions/CubesterYT/WindowControls",
 
         blocks: [
           {

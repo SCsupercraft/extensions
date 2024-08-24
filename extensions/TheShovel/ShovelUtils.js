@@ -34,7 +34,7 @@
         color1: "#f54242",
         color2: "#f54242",
         color3: "#f54242",
-        docsURI: "https://extensions.turbowarp.org/TheShovel/ShovelUtils",
+        docsURI: "https://scsupercraft.github.io/extensions/TheShovel/ShovelUtils",
         blocks: [
           {
             opcode: "importImage",
@@ -43,7 +43,7 @@
             arguments: {
               TEXT: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/dango.png",
+                defaultValue: "https://scsupercraft.github.io/extensions/dango.png",
               },
               NAME: {
                 type: Scratch.ArgumentType.STRING,
@@ -95,7 +95,7 @@
             arguments: {
               TEXT: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/meow.mp3",
+                defaultValue: "https://scsupercraft.github.io/extensions/meow.mp3",
               },
               NAME: {
                 type: Scratch.ArgumentType.STRING,
@@ -111,7 +111,7 @@
               TEXT: {
                 type: Scratch.ArgumentType.STRING,
                 defaultValue:
-                  "https://extensions.turbowarp.org/samples/Box2D.sb3",
+                  "https://scsupercraft.github.io/extensions/samples/Box2D.sb3",
               },
             },
           },
@@ -122,7 +122,7 @@
             arguments: {
               TEXT: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: "https://extensions.turbowarp.org/utilities.js",
+                defaultValue: "https://scsupercraft.github.io/extensions/utilities.js",
               },
             },
           },

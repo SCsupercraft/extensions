@@ -19,7 +19,7 @@
         color1: "#136C9F",
         color2: "#105e8c",
         color3: "#0d486b",
-        docsURI: "https://extensions.turbowarp.org/steamworks",
+        docsURI: "https://scsupercraft.github.io/extensions/steamworks",
         blocks: [
           {
             blockType: Scratch.BlockType.BOOLEAN,

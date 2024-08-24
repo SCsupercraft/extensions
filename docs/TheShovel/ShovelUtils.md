@@ -19,25 +19,25 @@ Import sprite from [Link or data uri here]
 Imports a sprite into the project using a DataURI or link. Be mindful of sprite names; having two or more sprites with the same name can cause issues.
 
 ```scratch
-Import image from [https://extensions.turbowarp.org/dango.png] name [Dango]
+Import image from [https://scsupercraft.github.io/extensions/dango.png] name [Dango]
 ```
 
 Imports a costume from a PNG, Bitmap, or JPEG. **Does not work with SVGS**. The costume imports into the current sprite/backdrop the user has selected.
 
 ```scratch
-Import sound from [https://extensions.turbowarp.org/meow.mp3] name [Meow]
+Import sound from [https://scsupercraft.github.io/extensions/meow.mp3] name [Meow]
 ```
 
 Imports a sound from any Scratch-compatible sound file. The sound imports into the current sprite/backdrop the user has selected.
 
 ```scratch
-Import project from [https://extensions.turbowarp.org/samples/Box2D.sb3]
+Import project from [https://scsupercraft.github.io/extensions/samples/Box2D.sb3]
 ```
 
 Imports a full project from a link. This project will completely replace the contents of the current one. If the project is unsandboxed, it will ask permission before swapping contents.
 
 ```scratch
-Load extension from [https://extensions.turbowarp.org/utilities.js]
+Load extension from [https://scsupercraft.github.io/extensions/utilities.js]
 ```
 
 Imports any extension from a link. Extensions from the [Extension Gallery](https://extensions.turbowarp.org) can run unsandboxed, and don't require permission to import.

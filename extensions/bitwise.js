@@ -35,7 +35,7 @@
 
         color1: "#17cde6",
 
-        docsURI: "https://extensions.turbowarp.org/bitwise",
+        docsURI: "https://scsupercraft.github.io/extensions/bitwise",
         menuIconURI: icon,
 
         blocks: [

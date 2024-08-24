@@ -37,7 +37,7 @@
       return {
         id: "cst1229zip",
         name: Scratch.translate("Zip"),
-        docsURI: "https://extensions.turbowarp.org/CST1229/zip",
+        docsURI: "https://scsupercraft.github.io/extensions/CST1229/zip",
 
         blockIconURI: extIcon,
 
@@ -72,7 +72,7 @@
               DATA: {
                 type: Scratch.ArgumentType.STRING,
                 // defaultValue: "http:/localhost:8000/hello.zip",
-                defaultValue: "https://extensions.turbowarp.org/hello.zip",
+                defaultValue: "https://scsupercraft.github.io/extensions/hello.zip",
               },
               NAME: {
                 type: Scratch.ArgumentType.STRING,
@@ -111,7 +111,7 @@
               DATA: {
                 type: Scratch.ArgumentType.STRING,
                 // defaultValue: "http:/localhost:8000/hello.zip",
-                defaultValue: "https://extensions.turbowarp.org/hello.zip",
+                defaultValue: "https://scsupercraft.github.io/extensions/hello.zip",
               },
             },
           },

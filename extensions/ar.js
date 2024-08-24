@@ -518,7 +518,7 @@
         color1: "#d10000",
         color2: "#bd0000",
         color3: "#af0100",
-        docsURI: "https://extensions.turbowarp.org/ar",
+        docsURI: "https://scsupercraft.github.io/extensions/ar",
         blocks: [
           {
             opcode: "enterAR",

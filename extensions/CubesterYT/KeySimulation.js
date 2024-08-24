@@ -78,7 +78,7 @@
         color1: "#BF0000",
         color2: "#800000",
         menuIconURI: icon,
-        docsURI: "https://extensions.turbowarp.org/CubesterYT/KeySimulation",
+        docsURI: "https://scsupercraft.github.io/extensions/CubesterYT/KeySimulation",
 
         blocks: [
           {
