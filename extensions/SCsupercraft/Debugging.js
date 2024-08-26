@@ -2,6 +2,7 @@
 // ID: debugging
 // Description: Log information and run commands. Good for debugging packaged projects or just easily changing things.
 // By: SCsupercraft <https://github.com/SCsupercraft>
+// Original: JeremyGamer13 <https://github.com/JeremyGamer13/>
 // License: MIT
 
 /*
