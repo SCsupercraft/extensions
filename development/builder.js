@@ -580,7 +580,7 @@ class SampleFile extends BuildFile {
 
     for (const url of urls) {
       if (
-        !url.startsWith("https://scsupercraft.github.io/extensions/") ||
+        (!url.startsWith("https://scsupercraft.github.io/extensions/") && !url.startsWith("https://extensions.turbowarp.org/extensions/")) ||
         !url.endsWith(".js")
       ) {
         throw new Error(`Invalid extension URL for sample: ${url}`);
