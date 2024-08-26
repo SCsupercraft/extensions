@@ -451,6 +451,7 @@ Contributors / Helpers
                 color1: '#878787',
                 color2: '#757575',
                 menuIconURI: menuIconURI,
+                docsURI: 'https://scsupercraft.github.io/extensions/SCsupercraft/Debugging',
                 blocks: [
                     {
                         opcode: 'openDebugger',
