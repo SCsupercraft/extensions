@@ -1,12 +1,8 @@
-# TurboWarp Extension Gallery
+# SCsupercraft's Extension Gallery
 
-User-contributed unsandboxed extension gallery for TurboWarp.
+An extension gallery for all of my extensions.
 
 https://scsupercraft.github.io/extensions/
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
