@@ -557,7 +557,7 @@ class SampleFile extends BuildFile {
   }
 
   getTitle() {
-    return this.getSlug().replace(".sb3", "");
+    return this.getSlug().replace(".sb3", "").replace(".pmp", "");
   }
 
   /** @returns {string[]} list of full URLs */
@@ -765,7 +765,7 @@ class Builder {
     for (const [filename, absolutePath] of recursiveReadDirectory(
       this.samplesRoot
     )) {
-      if (!filename.endsWith(".sb3")) {
+      if (!filename.endsWith(".sb3") && !filename.endsWith(".pmp")) {
         continue;
       }
 
